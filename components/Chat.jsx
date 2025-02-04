@@ -59,7 +59,7 @@ const Chat = () => {
     setInput('');
 
     try {
-      const response = await fetch('http://204.12.203.155:5000/chat', {
+      const response = await fetch('https://bullbillion.com/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
